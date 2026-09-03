@@ -6,35 +6,35 @@ order: 1
 ---
 
 <style>
-  /* Styled Post List */
-  .post-item {
+  /* Styled Teaching List */
+  .course-item {
     margin-bottom: 1rem;
   }
 
-  .post-meta {
+  .course-meta {
     font-family: monospace;
     color: #999;
     font-size: 0.9rem;
     margin-bottom: 0.3rem;
   }
 
-  .post-meta::before {
+  .course-meta::before {
     content: "✦ ";
     color: var(--primary-color);
     font-size: 1.2rem;
     margin-right: 0.3rem;
   }
 
-  .post-item h3 {
+  .course-item h3 {
     margin: 0 0 0.5rem 0;
   }
 
-  .post-item h3 a {
+  .course-item h3 a {
     color: var(--primary-color);
     text-decoration: none;
   }
 
-  .post-item h3 a:hover {
+  .course-item h3 a:hover {
     text-decoration: underline;
   }
 
@@ -45,23 +45,9 @@ order: 1
 
 
 <div class="home">
-  {% if site.posts.size > 0 %}
-  {% for post in site.posts %}
-  <div class="post-item">
-    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-    <h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-    {% if post.excerpt %}
-      <p><i>{{ post.excerpt }}</i></p>
-    {% endif %}
-    {% if post.categories %}
-    <p class="card-tags">
-      {% for category in post.categories %}
-      <span class="tag">{{ category }}</span>
-      {% endfor %}
-    </p>
-    {% endif %}
-  <hr>
-  </div>
-  {% endfor %}
-  {% endif %}
+  {% if site.courses.size > 0 %}
+  {% for course in site.courses %}
+  <div class="course-item">
+    <span class="course-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <h3><a class="course-link" href="{{ course.url | relative_url }}">{{ course.title }}</a></h3>
 </div>
