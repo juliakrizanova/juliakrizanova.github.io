@@ -180,7 +180,7 @@ layout: page
       <span class="tag">game theory</span>
       <span class="tag">discrete math</span>
       <span class="tag">optimization</span>
-      <span class="tag">machine learning</span> 
+      <span class="tag">ML</span> 
     </p>
   </div>
 </div>
