@@ -45,8 +45,8 @@ order: 1
 
 
 <div class="home">
-  {% if site.courses.size > 0 %}
-  {% for course in site.courses %}
+  {% if site.teaching.size > 0 %}
+  {% for course in site.teaching %}
   <div class="course-item">
     <span class="course-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
     <h3><a class="course-link" href="{{ course.url | relative_url }}">{{ course.title }}</a></h3>
