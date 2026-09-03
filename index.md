@@ -170,7 +170,7 @@ layout: page
   <div class="profile-content">
     <!-- <h3>About Me</h3> -->
     <p>
-      I am a PhD student in Algorithmic Game Theory at the Faculty of Mathematics and Physics, Charles University, in Prague. My supervisor is [Prof. Martin Loebl](https://kam.mff.cuni.cz/~loebl/) the Department of Applied Mathematics. My research interests lie at the intersection of algorithmic game theory, discrete math, optimization, and machine learning.
+      I am a PhD student in Algorithmic Game Theory at the Faculty of Mathematics and Physics, Charles University, in Prague. My supervisor is <a href="https://kam.mff.cuni.cz/~loebl/" target="_blank">Prof. Martin Loebl</a>  the Department of Applied Mathematics. My research interests lie at the intersection of algorithmic game theory, discrete math, optimization, and machine learning.
 
 I am also a member of the AGATE research group, which focuses on algorithmic game theory in socioeconomics.
     </p>
