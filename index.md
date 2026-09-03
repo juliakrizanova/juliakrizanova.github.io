@@ -114,7 +114,7 @@ layout: page
 
 <div class="profile-section">
   <div class="profile-left">
-    <img src="assets/images/profile.jpg" class="profile-image" alt="Profile Image">
+    <img src="assets/images/photo.jpg" class="profile-image" alt="Profile Image">
     <!-- ! the svg are copied manually from assets/icons/<filename>.svg -->
     <div class="social-links">
       <a href="https://linkedin.com/in/benbencik/" class="social-link" target="_blank" aria-label="LinkedIn">
