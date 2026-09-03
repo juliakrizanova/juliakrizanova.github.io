@@ -46,8 +46,16 @@ order: 1
 
 <div class="home">
   {% if site.teaching.size > 0 %}
-  {% for course in site.teaching %}
+  {% assign courses = site.teaching | sort: "order" %}
+  {% for course in courses %}
   <div class="course-item">
-    <span class="course-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    {% if course.semester %}
+    <span class="course-meta">{{ course.semester }}</span>
+    {% endif %}
     <h3><a class="course-link" href="{{ course.url | relative_url }}">{{ course.title }}</a></h3>
+    </div>
+    {% endfor %}
+    {% else %}
+    <p>No courses are listed yet.</p>
+    {% endif %}
 </div>
