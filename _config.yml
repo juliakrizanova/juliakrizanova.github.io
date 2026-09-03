@@ -31,11 +31,12 @@ github_username:  juliakrizanova
 
 # Site navigation pages
 header_pages:
+  - teaching.md
   - cv.md
-  - blog.md
-  - presentations.md
-  - projects.md
-  - research.md
+  # - blog.md
+  # - presentations.md
+  # - projects.md
+  # - research.md
 
 # Build settings
 theme: minima
