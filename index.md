@@ -170,7 +170,9 @@ layout: page
   <div class="profile-content">
     <!-- <h3>About Me</h3> -->
     <p>
-      Pursuing a master's degree in <b>Theoretical Computer Science</b> at <i>Charles University</i> in Prague, focused on cryptography. Enthusiastic about trustless, privacy-preserving systems. Balancing in between math and engineering.
+      I am a PhD student in Algorithmic Game Theory at the Faculty of Mathematics and Physics, Charles University, in Prague. My supervisor is [Prof. Martin Loebl](https://kam.mff.cuni.cz/~loebl/) the Department of Applied Mathematics. My research interests lie at the intersection of algorithmic game theory, discrete math, optimization, and machine learning.
+
+I am also a member of the AGATE research group, which focuses on algorithmic game theory in socioeconomics.
     </p>
     <p class="card-tags">
       <span class="tag">cryptograhy</span>
