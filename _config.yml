@@ -43,6 +43,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
+collections:
+      teaching:
+        output: true
+        permalink: /teaching/:name/
 # Permalink structure for blog posts
 permalink: /blogs/:title.html
 
