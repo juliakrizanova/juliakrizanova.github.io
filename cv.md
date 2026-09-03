@@ -2,7 +2,7 @@
 layout: page
 title: cv
 permalink: /cv/
-order: 1
+order: 2
 ---
 
 <style>
