@@ -1,0 +1,30 @@
+<!-- Theme toggle script for all pages -->
+<script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
+
+<!-- Return to top button -->
+<script src="{{ '/assets/js/return-to-top.js' | relative_url }}"></script>
+
+<!-- Only include particles.js on the music page -->
+{% if page.class == 'music-page' %}
+<script src="{{ '/assets/js/particles.js' | relative_url }}"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Initialize particles only on music page
+    particlesJS('particles-js', {
+      // Your particles configuration
+      particles: {
+        number: { value: 80, density: { enable: true, value_area: 800 } },
+        color: { value: "#cccccc" },
+        shape: { type: "circle" },
+        opacity: { value: 0.5, random: true },
+        size: { value: 3, random: true },
+        line_linked: { enable: false },
+        move: { enable: true, speed: 1, direction: "none", random: true, out_mode: "out" }
+      }
+    });
+  });
+</script>
+{% endif %}
+
+<!-- activate posts outline for blogs -->
+<script src="{{ '/assets/js/post-outline.js' | relative_url }}"></script>

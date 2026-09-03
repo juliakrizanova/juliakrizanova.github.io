@@ -1,0 +1,378 @@
+--- 
+
+--- 
+
+@import "minima";
+@import "colors";
+@import "callouts";
+@import "header-footer";
+@import "post-outline";
+
+/* ====================================
+   GENERAL STYLES & TYPOGRAPHY
+==================================== */
+body {
+    font-family: "Google Sans Code, Courier New", monospace;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+/* Main content wrapper */
+.page-content {
+    padding: 0.0rem 0;
+}
+
+.wrapper {
+    max-width: 750px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--content-bg-color);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+/* Posts use wrapper with no padding */
+.post .wrapper {
+    padding: 0;
+}
+
+a {
+    color: var(--primary-color);
+}
+
+a:visited {
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--primary-color-alt);
+    text-decoration: underline;
+}
+
+
+::selection {
+    background-color: var(--primary-color-alt);
+
+}
+
+h1, .post-content h1, .post-title { font-size: 2rem; }
+h2, .post-content h2 { font-size: 1.5rem; }
+h3, .post-content h3 { font-size: 1.2rem; }
+h4, .post-content h4 { font-size: 1rem; }
+
+blockquote {
+    border-left: 4px solid var(--primary-color-alt);
+    font-size: 1.05rem;
+}
+
+/* ====================================
+   INTERACTIVE ELEMENTS
+==================================== */
+.button {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    margin: 0.2rem;
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    font-family: monospace;
+    font-size: 0.75rem;
+    transition: all 0.3s ease;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    position: relative;
+}
+
+
+/* Default arrow style */
+.button::before {
+    content: "⟫ ";
+}
+
+/* Theme toggle button */
+.theme-toggle {
+    background: none;
+    font-family: inherit;
+    font-size: inherit;
+    font-style: italic;
+    color: inherit;
+    cursor: pointer;
+    font-size: 1rem;
+    position: relative;
+    border: 1px solid currentColor;
+    border-radius: 10px;
+    padding: 2px 8px;
+}
+
+.theme-toggle:hover {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* Theme icon styling */
+.theme-icon {
+    width: 1rem;
+    height: 1rem;
+    fill: currentColor;
+}
+
+/* Dark mode icon color adjustment */
+[data-theme="dark"] .theme-icon {
+    filter: brightness(0) saturate(100%) invert(100%);
+}
+
+/* Return to top button */
+.return-to-top {
+    background-color: var(--content-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    transition: all 0.1s ease;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+}
+
+.return-to-top::after {
+    content: "↑";
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.return-to-top:hover {
+    background-color: var(--primary-color);
+    color: var(--content-bg-color);
+}
+
+.return-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* ====================================
+   IMAGES
+==================================== */
+.post-content img, .post img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1.5rem auto;
+    border-radius: 0.4rem;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.profile-image {
+    border-radius: 50% !important;
+    border: none !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+}
+
+[data-theme="dark"] .post-content img,
+[data-theme="dark"] .post img {
+    filter: brightness(0.88) contrast(1.02);
+    border-color: #6b7a84;
+    box-shadow: 0 0 0 1px #6b7a84, 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+/* ====================================
+   CODE & SYNTAX HIGHLIGHTING
+==================================== */
+code {
+    background-color: var(--code-bg-color);
+    border: var(--code-bg-color);
+    color: var(--code-text-color);
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.3rem;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.9rem;
+}
+
+pre {
+    background-color: var(--code-bg-color);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    overflow-x: auto;
+    border: 1px solid var(--border-color);
+    margin: 1.5rem 0;
+}
+
+pre code {
+    background: none;
+    padding: 0;
+    color: var(--code-text-color);
+    font-size: 0.9rem;
+    border: none;
+    display: block;
+    line-height: 1.5;
+}
+
+.highlight {
+    background-color: var(--code-bg-color);
+    border-radius: 0.5rem;
+    margin: 1.5rem 0;
+}
+
+.highlighter-rouge .highlight {
+    background-color: var(--code-bg-color);
+}
+
+
+/* ====================================
+   TABLE STYLES
+==================================== */
+table {
+    border-collapse: collapse;
+    width: fit-content;
+    max-width: 100%;
+    margin: 1.5rem auto;
+    border-radius: 0.3rem;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    font-size: small;
+    display: block;
+    overflow-x: auto;
+}
+
+th {
+    background-color: var(--table-header-bg) !important;
+    color: var(--text-color) !important;
+    text-align: left;
+    padding: 0.8rem;
+    font-weight: bold;
+    border: 1px solid var(--border-color);
+}
+
+td {
+    padding: 0.8rem;
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    word-wrap: break-word;
+}
+
+table tr {
+    background-color: var(--content-bg-color) !important;
+}
+
+table tr:nth-child(even) {
+    background-color: var(--table-alt-row-bg) !important;
+}
+
+table tr:nth-child(odd) {
+    background-color: var(--content-bg-color) !important;
+}
+
+table tr:hover {
+    background-color: var(--table-hover-bg) !important;
+}
+
+/* ====================================
+   CARDS
+==================================== */
+/* General card styling */
+.card {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    background-color: var(--content-bg-color);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    margin-bottom: 1rem;
+}
+
+.card-header h3 {
+    margin-bottom: 0.3rem;
+    font-size: 1.3rem;
+}
+
+.card-meta {
+    color: var(--secondary-text-color);
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.card-tags {
+    margin: 1rem 0;
+}
+
+.card-links {
+    margin-top: 1.5rem;
+}
+
+.card-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
+/* ====================================
+   TAGS
+==================================== */
+
+.tag {
+    display: inline-block;
+    padding: 0.3rem 0.6rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.3rem;
+    background-color: var(--bg-color-alt);
+    color: var(--secondary-text-color);
+    font-size: 0.8rem;
+}
+
+/* ====================================
+MOBILE NAVIGATION MENU THEMING
+==================================== */
+@media screen and (max-width: 600px) {
+    .site-nav {
+        background-color: var(--bg-color-alt);
+        border: 1px solid var(--border-color);
+        top: 3rem;
+        right: 1rem;
+        z-index: 200;
+        padding: auto;
+    }
+
+    .site-nav .menu-icon>svg {
+        fill: var(--text-color);
+    }
+
+    .site-nav .page-link {
+        color: var(--text-color);
+    }
+
+    .site-nav input~.trigger {
+        background-color: var(--bg-color-alt);
+        padding: 1rem 1rem;
+    }
+}

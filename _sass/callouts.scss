@@ -1,0 +1,119 @@
+/* Obsidian-style callout blocks with ASCII decoration */
+.callout {
+    padding: 1.2rem;
+    margin: 1.5rem 0;
+    border-left: 4px solid;
+    border-radius: 0 0.3rem 0.3rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.callout::before {
+    font-family: monospace;
+    position: absolute;
+    top: -2px;
+    left: 10px;
+    padding: 0 8px;
+    // background: white;
+    font-size: 0.8em;
+}
+
+.callout::after {
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    right: 10px;
+    padding: 0 8px;
+    background: white;
+    font-size: 0.8em;
+    font-family: monospace;
+}
+
+.callout-content {
+    margin-top: 8px;
+}
+
+.callout-title {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.callout-title::before {
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+}
+
+/* Note callout */
+.callout-note {
+    background-color: #f8f8fc;
+    border-color: #2a7ae2;
+}
+.callout-note::before {
+    content: "note";
+    color: #2a7ae2;
+}
+
+/* Info callout */
+.callout-info {
+    background-color: var(--info-bg-color);
+    border-color: var(--info-border-color);
+}
+
+.callout-info .callout-title {
+    color: var(--info-title-color);
+}
+
+.callout-info .callout-title::before {
+    content: "ℹ";
+}
+
+/* Warning callout */
+.callout-warning {
+    background-color: var(--warning-bg-color);
+    border-color: var(--warning-border-color);
+}
+
+.callout-warning .callout-title {
+    color: var(--warning-title-color);
+}
+
+.callout-warning .callout-title::before {
+    content: "⚠";
+}
+
+/* Tip callout */
+.callout-tip {
+    background-color: #f0fff4;
+    border-color: #38b000;
+}
+.callout-tip::before {
+    content: "tip";
+    color: #38b000;
+}
+
+/* Important callout */
+.callout-important {
+    background-color: #fff0f3;
+    border-color: #d00000;
+}
+.callout-important::before {
+    content: "important";
+    color: #d00000;
+}
+
+/* Danger callout */
+.callout-danger {
+    background-color: var(--danger-bg-color);
+    border-color: var(--danger-border-color);
+}
+
+.callout-danger .callout-title {
+    color: var(--danger-title-color);
+}
+
+.callout-danger .callout-title::before {
+    content: "🛑";
+}

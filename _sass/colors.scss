@@ -1,0 +1,133 @@
+// colors.scss
+
+// black white theme colors
+// $light-bg: #ffffff;
+// $light-header-bg: #ffffff;
+// $light-footer-bg: #f5f5f5;
+// $light-content-bg: #f8f8f8;
+// $light-text: #222;
+// $light-border: #e8e8e8;
+// $light-primary: #2a7ae2;
+
+// $dark-bg: #121212;
+// $dark-header-bg: #1a1a1a;
+// $dark-footer-bg: #1a1a1a;
+// $dark-content-bg: #1e1e1e;
+// $dark-text: #ddd;
+// $dark-border: #444;
+// $dark-primary: #4da6ff;
+
+// everforest
+$light-bg: #fdf6e3;
+$light-bg-alt: #f5ebd1;
+$light-header-bg: #f8f1e0;
+$light-content-bg: #fdf6e3;
+$light-text: #535a50;
+$light-border: #d8caaf;
+$light-primary: #809b68;
+$light-primary-alt: #e69875;
+
+$dark-bg: #2d353b;
+$dark-bg-alt: #232a30;
+$dark-header-bg: #354048;
+$dark-content-bg: #2d353b;
+$dark-text: #d8caaf;
+$dark-border: #4d575f;
+$dark-primary: #a7c080;
+$dark-primary-alt: #e9875a;
+
+:root {
+  --bg-color: #{$light-bg};
+  --bg-color-alt: #{$light-bg-alt};
+  --header-bg-color: #{$light-header-bg};
+  --content-bg-color: #{$light-content-bg};
+  --text-color: #{$light-text};
+  --border-color: #{$light-border};
+  --primary-color: #{$light-primary};
+  --primary-color-alt: #{$light-primary-alt};
+  --code-bg-color: #{$light-bg-alt};
+
+  /* Table colors - updated for better contrast */
+  --table-header-bg: var(--table-alt-row-bg); /* Darker blue header */
+  --table-header-text: rgb(46, 45, 45);
+  --table-alt-row-bg: rgba(0, 0, 0, 0.02); /* Subtle alternating rows */
+  --table-hover-bg: rgba(42, 122, 226, 0.05); /* Subtle hover effect */
+
+  /* Callout colors - Info */
+  --info-bg-color: #e8f4fd;
+  --info-border-color: #2a7ae2;
+  --info-title-color: #0366d6;
+
+  /* Callout colors - Warning */
+  --warning-bg-color: #fff8ea;
+  --warning-border-color: #f0ad4e;
+  --warning-title-color: #e08e0b;
+
+  /* Callout colors - Danger */
+  --danger-bg-color: #ffeeee;
+  --danger-border-color: #d9534f;
+  --danger-title-color: #b52b27;
+}
+
+[data-theme="dark"] {
+  --bg-color: #{$dark-bg};
+  --bg-color-alt: #{$dark-bg-alt};
+  --header-bg-color: #{$dark-header-bg};
+  --content-bg-color: #{$dark-content-bg};
+  --text-color: #{$dark-text};
+  --border-color: #{$dark-border};
+  --primary-color: #{$dark-primary};
+  --primary-color-alt: #{$dark-primary-alt};
+  --code-bg-color: #{$dark-bg-alt};
+
+  /* Table colors - dark theme */
+  --table-header-bg: var(--table-alt-row-bg); /* Darker blue header for dark theme */
+  --table-header-text: white;
+  --table-alt-row-bg: rgba(255, 255, 255, 0.03); /* Subtle alternating rows */
+  --table-hover-bg: rgba(77, 166, 255, 0.1); /* Subtle hover effect */
+
+  /* Callout colors - Info - dark theme */
+  --info-bg-color: #1a2636;
+  --info-border-color: #4da6ff;
+  --info-title-color: #5ca8ff;
+
+  /* Callout colors - Warning - dark theme */
+  --warning-bg-color: #332c21;
+  --warning-border-color: #f0ad4e;
+  --warning-title-color: #ffba4d;
+
+  /* Callout colors - Danger - dark theme */
+  --danger-bg-color: #362626;
+  --danger-border-color: #d9534f;
+  --danger-title-color: #ff6b68;
+}
+
+/* Dark theme syntax highlighting overrides — minima defaults are light-bg only */
+[data-theme="dark"] .highlight {
+    color: #d3c6aa; /* base text */
+
+    .c, .cm, .c1, .cs { color: #859289; font-style: italic } /* Comments → muted */
+    .err              { color: #e67e80; background-color: transparent }
+    .k, .kc, .kd, .kp, .kr { color: #e69875; font-weight: bold } /* Keywords → orange */
+    .kt               { color: #d699b6; font-weight: bold } /* Keyword.Type → purple */
+    .o, .ow           { color: #d3c6aa; font-weight: bold } /* Operators */
+    .m, .mf, .mh, .mi, .mo, .il { color: #83c092 } /* Numbers → cyan-green */
+    .s, .sb, .sc, .sd, .s2, .se, .sh, .si, .sx, .s1 { color: #a7c080 } /* Strings → green */
+    .sr               { color: #83c092 } /* Regex */
+    .ss               { color: #d699b6 } /* Symbol */
+    .na               { color: #83c092 } /* Name.Attribute */
+    .nb, .bp          { color: #7fbbb3 } /* Builtins → cyan */
+    .nc               { color: #d699b6; font-weight: bold } /* Name.Class */
+    .no, .nv, .vc, .vg, .vi { color: #83c092 } /* Constants/Variables */
+    .ni               { color: #d699b6 } /* Name.Entity */
+    .ne, .nf          { color: #7fbbb3; font-weight: bold } /* Functions → cyan */
+    .nn               { color: #d3c6aa } /* Namespace */
+    .nt               { color: #7fbbb3 } /* Name.Tag */
+    .cp               { color: #859289; font-weight: bold } /* Comment.Preproc */
+    .gd               { color: #e67e80 } /* Deleted */
+    .gi               { color: #a7c080 } /* Inserted */
+    .gh, .gu          { color: #859289 } /* Heading/Subheading */
+    .go               { color: #859289 } /* Output */
+    .gp               { color: #a7c080 } /* Prompt */
+    .w                { color: #859289 } /* Whitespace */
+}
