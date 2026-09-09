@@ -3,7 +3,7 @@ layout: page
 title: cv
 permalink: /cv/
 order: 2
----
+--- --->
 
 <style>
     .cv-entry {
@@ -261,4 +261,3 @@ order: 2
 ### [Projects](/projects)
 
 View my projects and hackathon participations at projects page.
---->
