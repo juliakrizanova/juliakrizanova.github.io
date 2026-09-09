@@ -138,7 +138,7 @@ order: 2
         Copenhagen, Denmark 🇩🇰
       </span>
     </div>
-    <img src="../assets/images/ucph_logo.png" class="cv-img" alt="University of Copenhagen">
+    <img src="../assets/images/ucph.png" class="cv-img" alt="University of Copenhagen">
     <!-- <div class="cv-logo-placeholder" aria-label="University of Copenhagen placeholder logo">UCPH</div> -->
     <div class="cv-description">
     TODO
@@ -271,7 +271,7 @@ order: 2
         Brussels, Belgium 🇧🇪
       </span>
     </div>
-    <img src="../assets/images/eu_logo" class="cv-img" alt="European Union">
+    <img src="../assets/images/eu.jpg" class="cv-img" alt="European Union">
     <!-- <div class="cv-logo-placeholder" aria-label="European Union placeholder logo">EU</div> -->
   </div>
   <div class="cv-description">
