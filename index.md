@@ -114,7 +114,7 @@ layout: page
 
 <div class="profile-section">
   <div class="profile-left">
-    <img src="assets/images/me2.jpg" class="profile-image" alt="Profile Image">
+    <img src="assets/images/photo.jpg" class="profile-image" alt="Profile Image">
     <!-- ! the svg are copied manually from assets/icons/<filename>.svg -->
     <div class="social-links">
       <a href="https://www.linkedin.com/in/júlia-križanová-639492208" class="social-link" target="_blank" aria-label="LinkedIn">
