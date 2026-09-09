@@ -117,7 +117,7 @@ layout: page
     <img src="assets/images/photo.jpg" class="profile-image" alt="Profile Image">
     <!-- ! the svg are copied manually from assets/icons/<filename>.svg -->
     <div class="social-links">
-      <a href="www.linkedin.com/in/júlia-križanová-639492208" class="social-link" target="_blank" aria-label="LinkedIn">
+      <a href="https://www.linkedin.com/in/júlia-križanová-639492208" class="social-link" target="_blank" aria-label="LinkedIn">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
           class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin">
