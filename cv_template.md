@@ -1,9 +1,8 @@
-<!--- ---
+---
 layout: page
-title: cv
-permalink: /cv/
-order: 2
---- --->
+title: cv template
+published: false
+---
 
 <style>
     .cv-entry {
