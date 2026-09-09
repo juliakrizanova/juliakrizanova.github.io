@@ -125,7 +125,7 @@ order: 2
     <!-- <div class="cv-logo-placeholder" aria-label="prg.ai placeholder logo">prg.ai</div> -->
   </div>
   <div class="cv-description">
-    TODO
+    Inter-university minor programme complementing my computer-science studies with a focused curriculum in artificial intelligence.
   </div>
 </div>
 
@@ -142,7 +142,7 @@ order: 2
     <!-- <div class="cv-logo-placeholder" aria-label="University of Copenhagen placeholder logo">UCPH</div> -->
   </div>
   <div class="cv-description">
-    TODO
+    Erasmus exchange at the University of Copenhagen. Courses taken: Online and reinforcement learning, Numerical optimization, Approximation Algorithms.
   </div>
 </div>
 
