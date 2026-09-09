@@ -142,7 +142,7 @@ order: 2
     <!-- <div class="cv-logo-placeholder" aria-label="University of Copenhagen placeholder logo">UCPH</div> -->
   </div>
   <div class="cv-description">
-    Erasmus exchange at the University of Copenhagen. Courses taken: Online and reinforcement learning, Numerical optimization, Approximation Algorithms.
+    Erasmus exchange at the University of Copenhagen. Courses taken: Online and reinforcement learning, Numerical optimization, Approximation algorithms.
   </div>
 </div>
 
