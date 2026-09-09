@@ -71,7 +71,7 @@ order: 2
     <div class="cv-heading-text">
       <strong>PhD in Computer Science — Algorithmic Game Theory</strong><br>
       <span class="cv-subheading">
-        <a href="https://www.mff.cuni.cz/en">Charles University</a>, AGATE Research Group • [2026 - Present]<br>
+        <a href="https://www.mff.cuni.cz/en">Charles University</a>, <a href="https://centre.agate.cuni.cz/">AGATE Research Group</a> • [2026 - Present]<br>
         Prague, Czech Republic 🇨🇿
       </span>
     </div>
@@ -92,7 +92,7 @@ order: 2
   </div>
   <div class="cv-description">
     Theoretically oriented specialization focused on discrete mathematics, especially algorithms, combinatorics, and optimization.
-    <p>Diploma thesis: <em>Shannon Switching Game and Its Variants</em>, part of joint research with Prof. M. Loebl, Prof. H. Tiwary, and Prof. C. Negri Lintzmayer. Awarded the AGATE ERA Chair Scholarship (CZK 30,000). Overall grade average: 1.00.</p>
+    <p>Diploma thesis: <em>Shannon Switching Game and Its Variants</em>, part of joint research with Prof. M. Loebl, Prof. H. Tiwary, and Prof. C. Negri Lintzmayer. Overall grade average: 1.00.</p>
   </div>
 </div>
 
@@ -107,6 +107,9 @@ order: 2
     </div>
     <img src="../assets/images/charles-uni.jpg" class="cv-img" alt="Charles University">
   </div>
+  <div class="cv-description">
+    Bachelor thesis: <em>Statistical Physics in games</em>. Supervisor: Prof. M. Loebl.
+  </div>
 </div>
 
 <div class="cv-entry">
@@ -119,6 +122,9 @@ order: 2
       </span>
     </div>
     <div class="cv-logo-placeholder" aria-label="prg.ai placeholder logo">prg.ai</div>
+    <div class="cv-description">
+    TODO
+  </div>
   </div>
 </div>
 
@@ -132,6 +138,9 @@ order: 2
       </span>
     </div>
     <div class="cv-logo-placeholder" aria-label="University of Copenhagen placeholder logo">UCPH</div>
+    <div class="cv-description">
+    TODO
+  </div>
   </div>
 </div>
 
@@ -151,7 +160,7 @@ order: 2
     <div class="cv-logo-placeholder" aria-label="Second Foundation placeholder logo">SF</div>
   </div>
   <div class="cv-description">
-    Trading in energy markets, developing and executing trading strategies. Analyzing market data and optimizing trading decisions.
+    Intraday trader.
   </div>
 </div>
 
@@ -183,7 +192,7 @@ order: 2
     <img src="../assets/images/dimacs.png" class="cv-img" alt="DIMACS">
   </div>
   <div class="cv-description">
-    Selected for an eight-week undergraduate summer internship. Worked on <em>Truth Learning in a Social and Adversarial Setting</em>, supervised by Prof. Jie Gao.
+    Eight-week undergraduate summer internship. Worked on <em>Truth Learning in a Social and Adversarial Setting</em>, supervised by Prof. Jie Gao.
   </div>
 </div>
 
