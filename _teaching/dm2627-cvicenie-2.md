@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Cvičenie z Diskrétnej matematiky 2
+title: NDMI002 - Diskrétní matematika (Pá 12:20)
 semester: Zimný semester 2026/2027
 permalink: /teaching/dm2627/cvicenie-2/
 order: 2
