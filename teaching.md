@@ -45,17 +45,18 @@ order: 1
 
 
 <div class="home">
-  {% if site.teaching.size > 0 %}
-  {% assign courses = site.teaching | sort: "order" %}
+  {% assign visible_courses = site.teaching | where_exp: "course", "course.listed != false" %}
+  {% if visible_courses.size > 0 %}
+  {% assign courses = visible_courses | sort: "order" %}
   {% for course in courses %}
   <div class="course-item">
     {% if course.semester %}
     <span class="course-meta">{{ course.semester }}</span>
     {% endif %}
     <h3><a class="course-link" href="{{ course.url | relative_url }}">{{ course.title }}</a></h3>
-    </div>
-    {% endfor %}
-    {% else %}
-    <p>No courses are listed yet.</p>
-    {% endif %}
+  </div>
+  {% endfor %}
+  {% else %}
+  <p>No courses are listed yet.</p>
+  {% endif %}
 </div>
