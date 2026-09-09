@@ -138,7 +138,8 @@ order: 2
         Copenhagen, Denmark 🇩🇰
       </span>
     </div>
-    <div class="cv-logo-placeholder" aria-label="University of Copenhagen placeholder logo">UCPH</div>
+    <img src="../assets/images/ucph_logo.png" class="cv-img" alt="University of Copenhagen">
+    <!-- <div class="cv-logo-placeholder" aria-label="University of Copenhagen placeholder logo">UCPH</div> -->
     <div class="cv-description">
     TODO
   </div>
@@ -158,7 +159,8 @@ order: 2
         Prague, Czech Republic 🇨🇿
       </span>
     </div>
-    <div class="cv-logo-placeholder" aria-label="Second Foundation placeholder logo">SF</div>
+    <img src="../assets/images/sf_logo.jpeg" class="cv-img" alt="Second Foundation">
+    <!-- <div class="cv-logo-placeholder" aria-label="Second Foundation placeholder logo">SF</div> -->
   </div>
   <div class="cv-description">
     Intraday trader.
@@ -206,7 +208,8 @@ order: 2
         Prague, Czech Republic 🇨🇿
       </span>
     </div>
-    <div class="cv-logo-placeholder" aria-label="MSD placeholder logo">MSD</div>
+    <img src="../assets/images/msd_logo.jpeg" class="cv-img" alt="MSD">
+    <!-- <div class="cv-logo-placeholder" aria-label="MSD placeholder logo">MSD</div> -->
   </div>
   <div class="cv-description">
     Worked on data-science tasks, primarily computer-vision applications for video detection in Python.
@@ -226,7 +229,8 @@ order: 2
         České Budějovice, Czech Republic 🇨🇿
       </span>
     </div>
-    <div class="cv-logo-placeholder" aria-label="SVOČ placeholder logo">SVOČ</div>
+    <img src="../assets/images/svoc.png" class="cv-img" alt="SVOČ">
+    <!-- <div class="cv-logo-placeholder" aria-label="SVOČ placeholder logo">SVOČ</div> -->
   </div>
 </div>
 
@@ -239,7 +243,8 @@ order: 2
         Bratislava, Slovakia 🇸🇰
       </span>
     </div>
-    <div class="cv-logo-placeholder" aria-label="KSP placeholder logo">KSP</div>
+    <img src="../assets/images/ksp_logo.png" class="cv-img" alt="KSP">
+    <!-- <div class="cv-logo-placeholder" aria-label="KSP placeholder logo">KSP</div> -->
   </div>
 </div>
 
@@ -252,7 +257,8 @@ order: 2
         Prague, Czech Republic 🇨🇿
       </span>
     </div>
-    <div class="cv-logo-placeholder" aria-label="Spring School placeholder logo">SSC</div>
+    <img src="../assets/images/spring_logo.png" class="cv-img" alt="Spring School">
+    <!-- <div class="cv-logo-placeholder" aria-label="Spring School placeholder logo">SSC</div> -->
   </div>
 </div>
 
@@ -265,7 +271,8 @@ order: 2
         Brussels, Belgium 🇧🇪
       </span>
     </div>
-    <div class="cv-logo-placeholder" aria-label="European Union placeholder logo">EU</div>
+    <img src="../assets/images/eu_logo" class="cv-img" alt="European Union">
+    <!-- <div class="cv-logo-placeholder" aria-label="European Union placeholder logo">EU</div> -->
   </div>
   <div class="cv-description">
     Organized by European Commission member L. Niedermeyer. The award included a short-term internship at the European Parliament.
@@ -281,7 +288,8 @@ order: 2
         Prague, Czech Republic 🇨🇿
       </span>
     </div>
-    <div class="cv-logo-placeholder" aria-label="UnIT placeholder logo">UnIT</div>
+    <img src="../assets/images/unit_logo.png" class="cv-img" alt="UnIT">
+    <!-- <div class="cv-logo-placeholder" aria-label="UnIT placeholder logo">UnIT</div> -->
   </div>
 </div>
 
@@ -298,7 +306,8 @@ order: 2
         Prague, Czech Republic 🇨🇿
       </span>
     </div>
-    <img src="../assets/images/charles-uni.jpg" class="cv-img" alt="Charles University">
+    <img src="../assets/images/cern_logo.png" class="cv-img" alt="CERN">
+    <!-- <img src="../assets/images/charles-uni.jpg" class="cv-img" alt="Charles University"> -->
   </div>
   <div class="cv-description">
     Studied the feasibility of incorporating neural networks into the particle-detection process in the RICH detector of the AMBER experiment.
@@ -314,7 +323,8 @@ order: 2
         Prague, Czech Republic 🇨🇿
       </span>
     </div>
-    <div class="cv-logo-placeholder" aria-label="project placeholder logo">CV</div>
+    <img src="../assets/images/neuro_logo.png" class="cv-img" alt="Neuroscience Group">
+    <!-- <div class="cv-logo-placeholder" aria-label="project placeholder logo">CV</div> -->
   </div>
   <div class="cv-description">
     Replicated a study on monkey active visual sensing and applied the methodology to a cat visual-cortex model.
