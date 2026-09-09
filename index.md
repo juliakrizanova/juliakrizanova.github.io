@@ -176,6 +176,10 @@ layout: page
     <p>
   I am also a member of the <a href="https://centre.agate.cuni.cz/" target="_blank">AGATE</a> research group, which focuses on algorithmic game theory in socioeconomics.
     </p>
+
+    <p><strong>Contact:</strong><br>
+    e-mail: <a href="mailto:krizanova@kam.mff.cuni.cz">krizanova@kam.mff.cuni.cz</a>
+    </p>
     <p class="card-tags">
       <span class="tag">game theory</span>
       <span class="tag">discrete math</span>
