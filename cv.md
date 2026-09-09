@@ -121,7 +121,8 @@ order: 2
         Prague, Czech Republic 🇨🇿
       </span>
     </div>
-    <div class="cv-logo-placeholder" aria-label="prg.ai placeholder logo">prg.ai</div>
+    <img src="../assets/images/prgai_logo.png" class="cv-img" alt="Prg.AI">
+    <!-- <div class="cv-logo-placeholder" aria-label="prg.ai placeholder logo">prg.ai</div> -->
     <div class="cv-description">
     TODO
   </div>
