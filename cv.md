@@ -32,6 +32,30 @@ order: 2
   font-size: 0.88rem;
 }
 
+.cv-img,
+.cv-logo-placeholder {
+  width: 65px;
+  height: 65px;
+  box-sizing: border-box;
+  flex: 0 0 65px;
+  object-fit: contain;
+  transform: translateY(-15px);
+  border: 3px solid var(--border-color);
+  border-radius: 8px;
+}
+
+.cv-logo-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  color: var(--primary-color);
+  font-family: monospace;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-align: center;
+}
+
 .cv-separator {
   margin: 15px;
   color: var(--primary-color);
@@ -40,16 +64,18 @@ order: 2
 }
 </style>
 
-Júlia Križanová · <a href="mailto:julia.krizannova@gmail.com">julia.krizannova@gmail.com</a> · +421 948 382 086
-
 ### Education
 
 <div class="cv-entry">
   <div class="cv-heading">
     <div class="cv-heading-text">
       <strong>PhD in Computer Science — Algorithmic Game Theory</strong><br>
-      <span class="cv-subheading">Charles University in Prague, AGATE Research Group · 2026–present</span>
+      <span class="cv-subheading">
+        <a href="https://www.mff.cuni.cz/en">Charles University</a>, AGATE Research Group • [2026 - Present]<br>
+        Prague, Czech Republic 🇨🇿
+      </span>
     </div>
+    <img src="../assets/images/charles-uni.jpg" class="cv-img" alt="Charles University">
   </div>
 </div>
 
@@ -57,16 +83,16 @@ Júlia Križanová · <a href="mailto:julia.krizannova@gmail.com">julia.krizanno
   <div class="cv-heading">
     <div class="cv-heading-text">
       <strong>Master of Computer Science — Discrete Models and Algorithms (Optimization)</strong><br>
-      <span class="cv-subheading">Charles University in Prague · 2024–2026</span>
+      <span class="cv-subheading">
+        <a href="https://www.mff.cuni.cz/en">Charles University</a> • [2024 - 2026]<br>
+        Prague, Czech Republic 🇨🇿
+      </span>
     </div>
+    <img src="../assets/images/charles-uni.jpg" class="cv-img" alt="Charles University">
   </div>
   <div class="cv-description">
-    <ul>
-      <li>Theoretically oriented specialization focused on discrete mathematics, especially algorithms, combinatorics, and optimization.</li>
-      <li>Diploma thesis: <em>Shannon Switching Game and Its Variants</em>, part of joint research with Prof. M. Loebl, Prof. H. Tiwary, and Prof. C. Negri Lintzmayer.</li>
-      <li>Awarded the AGATE ERA Chair Scholarship (CZK 30,000) in support of this research.</li>
-      <li>Overall grade average: 1.00.</li>
-    </ul>
+    Theoretically oriented specialization focused on discrete mathematics, especially algorithms, combinatorics, and optimization.
+    <p>Diploma thesis: <em>Shannon Switching Game and Its Variants</em>, part of joint research with Prof. M. Loebl, Prof. H. Tiwary, and Prof. C. Negri Lintzmayer. Awarded the AGATE ERA Chair Scholarship (CZK 30,000). Overall grade average: 1.00.</p>
   </div>
 </div>
 
@@ -74,8 +100,12 @@ Júlia Križanová · <a href="mailto:julia.krizannova@gmail.com">julia.krizanno
   <div class="cv-heading">
     <div class="cv-heading-text">
       <strong>Bachelor of Computer Science — Artificial Intelligence</strong><br>
-      <span class="cv-subheading">Charles University in Prague · 2021–2024</span>
+      <span class="cv-subheading">
+        <a href="https://www.mff.cuni.cz/en">Charles University</a> • [2021 - 2024]<br>
+        Prague, Czech Republic 🇨🇿
+      </span>
     </div>
+    <img src="../assets/images/charles-uni.jpg" class="cv-img" alt="Charles University">
   </div>
 </div>
 
@@ -83,18 +113,25 @@ Júlia Križanová · <a href="mailto:julia.krizannova@gmail.com">julia.krizanno
   <div class="cv-heading">
     <div class="cv-heading-text">
       <strong>prg.ai Minor in Artificial Intelligence</strong><br>
-      <span class="cv-subheading">Czech Technical University and Charles University in Prague · 2024–2026</span>
+      <span class="cv-subheading">
+        <a href="https://prg.ai/en/minor/">Czech Technical University &amp; Charles University</a> • [2024 - 2026]<br>
+        Prague, Czech Republic 🇨🇿
+      </span>
     </div>
+    <div class="cv-logo-placeholder" aria-label="prg.ai placeholder logo">prg.ai</div>
   </div>
-  <div class="cv-description"><a href="https://prg.ai/en/minor/">prg.ai minor website</a></div>
 </div>
 
 <div class="cv-entry">
   <div class="cv-heading">
     <div class="cv-heading-text">
-      <strong>Erasmus</strong><br>
-      <span class="cv-subheading">University of Copenhagen · 2025</span>
+      <strong>Erasmus Exchange</strong><br>
+      <span class="cv-subheading">
+        <a href="https://www.ku.dk/english/">University of Copenhagen</a> • [2025]<br>
+        Copenhagen, Denmark 🇩🇰
+      </span>
     </div>
+    <div class="cv-logo-placeholder" aria-label="University of Copenhagen placeholder logo">UCPH</div>
   </div>
 </div>
 
@@ -106,14 +143,15 @@ Júlia Križanová · <a href="mailto:julia.krizannova@gmail.com">julia.krizanno
   <div class="cv-heading">
     <div class="cv-heading-text">
       <strong>Trader</strong><br>
-      <span class="cv-subheading">Second Foundation, Prague · 2026–present</span>
+      <span class="cv-subheading">
+        <a href="https://www.second-foundation.eu/">Second Foundation</a> • [2026 - Present]<br>
+        Prague, Czech Republic 🇨🇿
+      </span>
     </div>
+    <div class="cv-logo-placeholder" aria-label="Second Foundation placeholder logo">SF</div>
   </div>
   <div class="cv-description">
-    <ul>
-      <li>Trading in energy markets; developing and executing trading strategies.</li>
-      <li>Analyzing market data and optimizing trading decisions.</li>
-    </ul>
+    Trading in energy markets, developing and executing trading strategies. Analyzing market data and optimizing trading decisions.
   </div>
 </div>
 
@@ -121,14 +159,15 @@ Júlia Križanová · <a href="mailto:julia.krizannova@gmail.com">julia.krizanno
   <div class="cv-heading">
     <div class="cv-heading-text">
       <strong>Teaching Assistant</strong><br>
-      <span class="cv-subheading">Charles University in Prague · 2025–present</span>
+      <span class="cv-subheading">
+        <a href="https://www.mff.cuni.cz/en">Charles University</a> • [2025 - Present]<br>
+        Prague, Czech Republic 🇨🇿
+      </span>
     </div>
+    <img src="../assets/images/charles-uni.jpg" class="cv-img" alt="Charles University">
   </div>
   <div class="cv-description">
-    <ul>
-      <li>Leading practicals in Discrete Mathematics for first-year students.</li>
-      <li>Leading practicals in Probability and Statistics 1 for second-year students.</li>
-    </ul>
+    Leading practicals in Discrete Mathematics for first-year students and in Probability and Statistics 1 for second-year students.
   </div>
 </div>
 
@@ -136,15 +175,15 @@ Júlia Križanová · <a href="mailto:julia.krizannova@gmail.com">julia.krizanno
   <div class="cv-heading">
     <div class="cv-heading-text">
       <strong>DIMACS Summer Research Intern</strong><br>
-      <span class="cv-subheading">Rutgers University, USA · May–July 2024</span>
+      <span class="cv-subheading">
+        <a href="https://reu.dimacs.rutgers.edu/2024/">DIMACS, Rutgers University</a> • [05/2024 - 07/2024]<br>
+        New Brunswick, New Jersey, USA 🇺🇸
+      </span>
     </div>
+    <img src="../assets/images/dimacs.png" class="cv-img" alt="DIMACS">
   </div>
   <div class="cv-description">
-    <ul>
-      <li>Selected for an eight-week summer internship for undergraduate students.</li>
-      <li>Worked on <em>Truth Learning in a Social and Adversarial Setting</em>, supervised by Prof. Jie Gao.</li>
-      <li><a href="https://reu.dimacs.rutgers.edu/2024/">DIMACS REU website</a></li>
-    </ul>
+    Selected for an eight-week undergraduate summer internship. Worked on <em>Truth Learning in a Social and Adversarial Setting</em>, supervised by Prof. Jie Gao.
   </div>
 </div>
 
@@ -152,10 +191,16 @@ Júlia Križanová · <a href="mailto:julia.krizannova@gmail.com">julia.krizanno
   <div class="cv-heading">
     <div class="cv-heading-text">
       <strong>Data Science Intern (20h/week)</strong><br>
-      <span class="cv-subheading">MSD, Prague · July 2023–December 2024</span>
+      <span class="cv-subheading">
+        <a href="https://www.msd.cz/cs/">MSD</a> • [07/2023 - 12/2024]<br>
+        Prague, Czech Republic 🇨🇿
+      </span>
     </div>
+    <div class="cv-logo-placeholder" aria-label="MSD placeholder logo">MSD</div>
   </div>
-  <div class="cv-description">Worked on data-science tasks, primarily computer-vision applications for video detection in Python.</div>
+  <div class="cv-description">
+    Worked on data-science tasks, primarily computer-vision applications for video detection in Python.
+  </div>
 </div>
 
 <div class="cv-separator">✦ ✦ ✦</div>
@@ -163,29 +208,71 @@ Júlia Križanová · <a href="mailto:julia.krizannova@gmail.com">julia.krizanno
 ### Achievements &amp; Extracurricular Activities
 
 <div class="cv-entry">
-  <strong>3rd place, SVOČ: Theoretical Computer Science (I1)</strong><br>
-  <span class="cv-subheading">2026 · <a href="https://home.pf.jcu.cz/~svoc2026/Prihlaseni.html">SVOČ website</a></span>
+  <div class="cv-heading">
+    <div class="cv-heading-text">
+      <strong>3rd Place, SVOČ: Theoretical Computer Science (I1)</strong><br>
+      <span class="cv-subheading">
+        <a href="https://home.pf.jcu.cz/~svoc2026/Prihlaseni.html">Student Professional Activity Competition</a> • [2026]<br>
+        České Budějovice, Czech Republic 🇨🇿
+      </span>
+    </div>
+    <div class="cv-logo-placeholder" aria-label="SVOČ placeholder logo">SVOČ</div>
+  </div>
 </div>
 
 <div class="cv-entry">
-  <strong>KSP Trojsten volunteer</strong><br>
-  <span class="cv-subheading">Comenius University · 2021–present</span>
+  <div class="cv-heading">
+    <div class="cv-heading-text">
+      <strong>KSP Trojsten Volunteer</strong><br>
+      <span class="cv-subheading">
+        <a href="https://comenius.university/">Comenius University</a> • [2021 - Present]<br>
+        Bratislava, Slovakia 🇸🇰
+      </span>
+    </div>
+    <div class="cv-logo-placeholder" aria-label="KSP placeholder logo">KSP</div>
+  </div>
 </div>
 
 <div class="cv-entry">
-  <strong>Spring School of Combinatorics — organizer and participant</strong><br>
-  <span class="cv-subheading">2023, 2024, 2025, 2026 · <a href="https://kam.mff.cuni.cz/~spring/">Spring School website</a></span>
+  <div class="cv-heading">
+    <div class="cv-heading-text">
+      <strong>Spring School of Combinatorics — Organizer and Participant</strong><br>
+      <span class="cv-subheading">
+        <a href="https://kam.mff.cuni.cz/~spring/">Spring School of Combinatorics</a> • [2023 - 2026]<br>
+        Prague, Czech Republic 🇨🇿
+      </span>
+    </div>
+    <div class="cv-logo-placeholder" aria-label="Spring School placeholder logo">SSC</div>
+  </div>
 </div>
 
 <div class="cv-entry">
-  <strong>1st place, Energy Analysis Project</strong><br>
-  <span class="cv-subheading">2026</span>
-  <div class="cv-description">Organized by European Commission member L. Niedermeyer. The award included a short-term internship at the European Parliament.</div>
+  <div class="cv-heading">
+    <div class="cv-heading-text">
+      <strong>1st Place, Energy Analysis Project</strong><br>
+      <span class="cv-subheading">
+        European Commission initiative • [2026]<br>
+        Brussels, Belgium 🇧🇪
+      </span>
+    </div>
+    <div class="cv-logo-placeholder" aria-label="European Union placeholder logo">EU</div>
+  </div>
+  <div class="cv-description">
+    Organized by European Commission member L. Niedermeyer. The award included a short-term internship at the European Parliament.
+  </div>
 </div>
 
 <div class="cv-entry">
-  <strong>2nd place, UnIT Hackathon</strong><br>
-  <span class="cv-subheading">Czech Technical University in Prague · 2022</span>
+  <div class="cv-heading">
+    <div class="cv-heading-text">
+      <strong>2nd Place, UnIT Hackathon</strong><br>
+      <span class="cv-subheading">
+        <a href="https://www.cvut.cz/en">Czech Technical University in Prague</a> • [2022]<br>
+        Prague, Czech Republic 🇨🇿
+      </span>
+    </div>
+    <div class="cv-logo-placeholder" aria-label="UnIT placeholder logo">UnIT</div>
+  </div>
 </div>
 
 <div class="cv-separator">✦ ✦ ✦</div>
@@ -193,13 +280,33 @@ Júlia Križanová · <a href="mailto:julia.krizannova@gmail.com">julia.krizanno
 ### Projects
 
 <div class="cv-entry">
-  <strong>Particle Detection for the AMBER Experiment, CERN</strong><br>
-  <span class="cv-subheading">Student Faculty Grant, Charles University · 2023–2024</span>
-  <div class="cv-description">Studied the feasibility of incorporating neural networks into the particle-detection process in the RICH detector of the AMBER experiment.</div>
+  <div class="cv-heading">
+    <div class="cv-heading-text">
+      <strong>Particle Detection for the AMBER Experiment, CERN</strong><br>
+      <span class="cv-subheading">
+        Student Faculty Grant, Charles University • [2023 - 2024]<br>
+        Prague, Czech Republic 🇨🇿
+      </span>
+    </div>
+    <img src="../assets/images/charles-uni.jpg" class="cv-img" alt="Charles University">
+  </div>
+  <div class="cv-description">
+    Studied the feasibility of incorporating neural networks into the particle-detection process in the RICH detector of the AMBER experiment.
+  </div>
 </div>
 
 <div class="cv-entry">
-  <strong>Study of a Cat Primary Visual Cortex During Active Visual Sensing</strong><br>
-  <span class="cv-subheading">Semestral project · 2023–2024</span>
-  <div class="cv-description">Replicated a study on monkey active visual sensing and applied the methodology to a cat visual-cortex model.</div>
+  <div class="cv-heading">
+    <div class="cv-heading-text">
+      <strong>Study of a Cat Primary Visual Cortex During Active Visual Sensing</strong><br>
+      <span class="cv-subheading">
+        Semestral project • [2023 - 2024]<br>
+        Prague, Czech Republic 🇨🇿
+      </span>
+    </div>
+    <div class="cv-logo-placeholder" aria-label="project placeholder logo">CV</div>
+  </div>
+  <div class="cv-description">
+    Replicated a study on monkey active visual sensing and applied the methodology to a cat visual-cortex model.
+  </div>
 </div>
