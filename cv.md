@@ -123,9 +123,9 @@ order: 2
     </div>
     <img src="../assets/images/prg_ai.jpeg" class="cv-img" alt="Prg.AI">
     <!-- <div class="cv-logo-placeholder" aria-label="prg.ai placeholder logo">prg.ai</div> -->
-    <div class="cv-description">
-    TODO
   </div>
+  <div class="cv-description">
+    TODO
   </div>
 </div>
 
@@ -140,9 +140,9 @@ order: 2
     </div>
     <img src="../assets/images/ucph.png" class="cv-img" alt="University of Copenhagen">
     <!-- <div class="cv-logo-placeholder" aria-label="University of Copenhagen placeholder logo">UCPH</div> -->
-    <div class="cv-description">
-    TODO
   </div>
+  <div class="cv-description">
+    TODO
   </div>
 </div>
 
