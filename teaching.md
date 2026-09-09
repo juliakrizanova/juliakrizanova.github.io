@@ -48,13 +48,15 @@ order: 1
   {% assign visible_courses = site.teaching | where_exp: "course", "course.listed != false" %}
   {% if visible_courses.size > 0 %}
   {% assign courses = visible_courses | sort: "order" %}
+  {% assign previous_semester = "" %}
   {% for course in courses %}
   <div class="course-item">
-    {% if course.semester %}
+    {% if course.semester and course.semester != previous_semester %}
     <span class="course-meta">{{ course.semester }}</span>
     {% endif %}
     <h3><a class="course-link" href="{{ course.url | relative_url }}">{{ course.title }}</a></h3>
   </div>
+  {% assign previous_semester = course.semester %}
   {% endfor %}
   {% else %}
   <p>No courses are listed yet.</p>
