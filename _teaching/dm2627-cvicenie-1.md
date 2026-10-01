@@ -51,7 +51,7 @@ Je povolené a vysoko odporúčané pracovať na úlohách **spoločne v skupink
 
 ### Konzultácie
 
-Ak niečomu nerozumiete alebo by ste sa chceli na niečo opýtať, pokojne mi napíšte e-mail na krizanova@kam.mff.cuni.cz a dohodneme si termín konzultácie.
+Ak niečomu nerozumiete alebo by ste sa chceli na niečo opýtať, pokojne mi napíšte e-mail na `krizanova@kam.mff.cuni.cz` a dohodneme si termín konzultácie.
 
 ## Zdroje
 
